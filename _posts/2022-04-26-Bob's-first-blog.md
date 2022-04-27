@@ -16,7 +16,7 @@ for i in range(10):
  
  this is some code
  
- # Github markdown usage
+# Github markdown usage
 
 Github Markdown uage [go](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
