@@ -36,24 +36,24 @@ docker pull nginx
 docker 
 ```
 
-* Some basic docker commands*
+*Some basic docker commands*
 
-Check all images
+- Check all images
 ```
 docker images
 ```
 
-Check services
+- Check services
 ```
 docker ps -a
 ```
 
-Remove a sevice
+- Remove a sevice
 ```
 docker rm {id}
 ```
 
-Stop a sevice
+- Stop a sevice
 ```
 docker stop {id}
 ```
@@ -70,7 +70,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS        
 ```
 
 # Step 6: create a folder named tmp, go to this folder and copy the service into this folder
-** ! 48 is the first two characters of container id **
+**48 is the first two characters of container id**
 ```
 docker cp 48:/etc/nginx .
 ```
@@ -81,7 +81,7 @@ cd conf.d/
 vim default.conf
 ```
 
-** configuration **
+**configuration**
 ```
 server {
     listen       80;
