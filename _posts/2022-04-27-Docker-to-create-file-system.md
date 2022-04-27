@@ -127,9 +127,9 @@ server {
 }
 ```
 
-# Step 8: run 
+# Step 8: run *better copy and change some neccesary paths first*
 ```
-docker run -itd -p 8111:80 -v /root/{*your original filer folder*}:/usr/share/nginx/html/ -v {*your created folder/nginx*}:/etc/nginx nginx
+docker run -itd -p 8111:80 -v /root/{your original filer folder}:/usr/share/nginx/html/ -v {your created folder/nginx}:/etc/nginx nginx
 ```
 
 # Step 9: check files inside a service folder 
