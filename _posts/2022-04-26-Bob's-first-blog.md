@@ -9,10 +9,10 @@ select * from table
 
 # Possible language hint using code block
 
-```cpython
+```python
 for i in range(10):
   pring(i)
- ```
+```
  
  this is some code
  
