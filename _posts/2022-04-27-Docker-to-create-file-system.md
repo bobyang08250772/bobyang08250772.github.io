@@ -48,12 +48,17 @@ docker images
 docker ps -a
 ```
 
-- Remove a sevice
+- Inspect a service
+```
+docker inspect {id}
+```
+
+- Remove a service
 ```
 docker rm {id}
 ```
 
-- Stop a sevice
+- Stop a service
 ```
 docker stop {id}
 ```
