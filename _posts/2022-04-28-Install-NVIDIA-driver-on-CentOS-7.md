@@ -1,6 +1,6 @@
 1.Install dependencies
-  
-  ``` {% include codeHeader.html %}
+  {% include codeHeader.html %}
+  ``` 
   yum -y install epel-release
   ```
   
@@ -8,8 +8,9 @@
   ```
   yum -y install gcc binutils wget
   ```
+  {% include codeHeader.html %}
   ```
-  yum -y install kernel-devel {% include codeHeader.html %}
+  yum -y install kernel-devel 
   ```
 
 2.Deactivate nouveau
