@@ -1,7 +1,10 @@
 1.Install dependencies
+  {% include codeHeader.html %}
   ```
   yum -y install epel-release
   ```
+  
+  {% include codeHeader.html %}
   ```
   yum -y install gcc binutils wget
   ```
