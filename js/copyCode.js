@@ -3,7 +3,7 @@ const codeBlocks = document.querySelectorAll('.hljs');
 const copyCodeButtons = document.querySelectorAll('.copy-code-button');
 
 copyCodeButtons.forEach((copyCodeButton, index) => {
-  const code = codeBlocks[index].innerText;
+  const code = codeBlocks[index].textContent;
 
   copyCodeButton.addEventListener('click', () => {
     // Copy the code to the user's clipboard
