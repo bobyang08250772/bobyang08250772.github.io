@@ -40,3 +40,8 @@ defaults:
       type: post
     values:
       tags: [AI related]
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: [AI related]
