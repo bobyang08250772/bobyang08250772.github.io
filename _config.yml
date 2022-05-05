@@ -39,5 +39,5 @@ defaults:
       path: ""
       type: post
     values:
-      categorys: [AI related, Others]
+      categories: [AI related, Others]
 
