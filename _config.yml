@@ -34,10 +34,4 @@ titles_from_headings:
   strip_title: true
   collections: true
 
-defaults:
-  - scope:
-      path: ""
-      type: post
-    values:
-      categories: [AI related, Others]
 
