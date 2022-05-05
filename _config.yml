@@ -42,6 +42,6 @@ defaults:
       tags: [AI related]
   - scope:
       path: ""
-      type: post
+      type: other
     values:
-      tags: [AI related]
+      tags: [Others]
