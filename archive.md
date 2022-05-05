@@ -8,8 +8,7 @@ title: Blog Archive
         <li>
                 {% assign cat_name = cat[0] %}
                 <div class="Projects">
-                        <h1>{{ cat[0] }}</h1>
-                        <h2>{{ cat_name }}</h2>
+                        <h1>{{ cat_name }}</h1>
                         <ul>
                                 {% for post in site.categories[cat_name] %}
                                 <li>
