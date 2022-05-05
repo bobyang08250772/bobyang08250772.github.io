@@ -37,7 +37,7 @@ titles_from_headings:
 defaults:
   - scope:
       path: ""
-      type: [post, others]
+      type: post
     values:
       tags: [AI related, Others]
 
