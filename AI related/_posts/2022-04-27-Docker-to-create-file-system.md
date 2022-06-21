@@ -53,6 +53,11 @@ docker ps -a
 docker inspect {id}
 ```
 
+- View logs
+```
+docker logs {id}
+```
+
 - Remove a service
 ```
 docker rm {id}
